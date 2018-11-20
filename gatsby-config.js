@@ -1,10 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'ImRandyK.codes',
+    social: {
+      twitter: '@imrandyk',
+      reddit: 'imrandyk',
+      devto: 'imrandyk',
+      github: 'imrandyk',
+    },
   },
   plugins: [
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sass',
+    'gatsby-plugin-emotion',
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
