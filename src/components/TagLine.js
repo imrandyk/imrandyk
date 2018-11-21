@@ -15,25 +15,33 @@ const TagLineDiv = Styled('div')`
     justify-items: center;
     width: 100%;
 
-    span {
+    span:first-of-type {
         font-size: ${Theme.textSizes['4xl']};
         transition: transform .2s ease;
     }
+
+    span:last-of-type {
+      display: none;
+      text-align: center;
+      @media (min-width: ${Theme.screens.md}) {
+        display: initial;
+      }
+    }
   }
 
-  & > span:nth-of-type(1n+1):hover span {
+  & > span:nth-of-type(1n+1):hover span:first-of-type  {
     transform: rotate(-9deg) scale(1.1);
   }
 
-  & > span:nth-of-type(2n+2):hover span {
+  & > span:nth-of-type(2n+2):hover span:first-of-type  {
     transform: rotate(7deg) scale(1.1);
   }
 
-  & > span:nth-of-type(3n+3):hover span {
+  & > span:nth-of-type(3n+3):hover span:first-of-type  {
     transform: rotate(-3deg) scale(1.1);
   }
 
-  & > span:nth-of-type(4n+4):hover span {
+  & > span:nth-of-type(4n+4):hover span:first-of-type  {
     transform: rotate(9deg) scale(1.1);
   }
 `
@@ -45,25 +53,25 @@ const TagLine = () => {
         <span role="img" aria-label="Man Technologist">
           👨‍💻
         </span>
-        Developer
+        <span>Developer</span>
       </span>
       <span>
         <span role="img" aria-label="Running Shoe">
           👟
         </span>
-        Sneaker Aficionado
+        <span>Sneaker Aficionado</span>
       </span>
       <span>
         <span role="img" aria-label="Jeans">
           👖
         </span>
-        Denim Head
+        <span>Denim Head</span>
       </span>
       <span>
         <span role="img" aria-label="Game Die">
           🎲
         </span>
-        Game Master
+        <span>Game Master</span>
       </span>
     </TagLineDiv>
   )

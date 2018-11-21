@@ -60,8 +60,14 @@ class Content extends Component {
   componentDidMount() {}
 
   render() {
-    const { content } = this.props
-    return <ContentDiv>{content}</ContentDiv>
+    const { content, children, style } = this.props
+
+    return (
+      <ContentDiv style={style}>
+        {content}
+        {children}
+      </ContentDiv>
+    )
   }
 }
 
