@@ -7,22 +7,34 @@ import Content from '../components/Content'
 import Theme from '../Theme'
 
 const WantsDiv = Styled('div')`
-h1 span {
+  padding: 0 ${Theme.width['8']};
+
+  @media (min-width: ${Theme.screens.md}) {
+    padding: 0 ${Theme.width['16']};
+  }
+
+  h1 div {
     font-size: 1rem;
-}
-    ul {
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-    }
+  }
 
-    li {
-        padding-bottom: ${Theme.width['4']};
-        list-style: none;
+  ul {
+    @media (min-width: ${Theme.screens.md}) {
+      display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
     }
+  }
 
-    span, div {
-        color: ${Theme.colors['grey-dark']};
+  li {
+    @media (min-width: ${Theme.screens.md}) {
+      padding-bottom: ${Theme.width['4']};
+      list-style: none;
     }
+  }
+
+  span, div {
+      color: ${Theme.colors['grey-dark']};
+  }
 `
 
 export default class IndexPage extends React.Component {
@@ -146,6 +158,10 @@ export default class IndexPage extends React.Component {
             desc: 'Tile Mate and Slim Combo Pack',
             info: "I've lost my roomba to many times",
           },
+          {
+            link: 'https://www.apple.com/shop/buy-tv/apple-tv-4k',
+            desc: 'Apple Tv 4k 32 gb',
+          },
         ],
       },
     ]
@@ -153,14 +169,15 @@ export default class IndexPage extends React.Component {
       <LayoutBase>
         <Content
           style={{
-            padding: `0 ${Theme.width['16']}`,
+            padding: `0`,
+            maxWidth: '100vw',
             // eslint-disable-next-line
             ['--link-color']: `${Theme.colors.teal}`,
           }}
         >
           <WantsDiv>
             <h1>
-              Things Randy Wants!!! <span>But does he need them?</span>
+              Things Randy Wants!!! <div>But does he need them?</div>
             </h1>
             <p>
               All of these items can be found at local retailers too! General
