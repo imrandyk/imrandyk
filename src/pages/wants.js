@@ -131,6 +131,21 @@ export default class IndexPage extends React.Component {
         ],
       },
       {
+        cat: 'Movies',
+        items: [
+          {
+            link:
+              'https://www.bestbuy.com/site/kingsman-the-secret-service-kingsman-the-golden-circle-4k-ultra-hd-blu-ray-blu-ray/6099907.p?skuId=6099907',
+            desc: 'Kingsmen 4k Combo',
+          },
+          {
+            link:
+              'https://www.bestbuy.com/site/thor-ragnarok-includes-digital-copy-4k-ultra-hd-blu-ray-blu-ray-2017/6139459.p?skuId=6139459',
+            desc: 'Thor Ragnarok 4k',
+          },
+        ],
+      },
+      {
         cat: 'Shoes',
         info: 'I wear a 9½',
         items: [
