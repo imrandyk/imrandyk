@@ -76,6 +76,33 @@ export default class IndexPage extends React.Component {
               'https://teespring.com/no-deploy-fridays#pid=2&cid=2122&sid=front',
             desc: 'No Deploy Fridays Developer T-shirt',
           },
+          {
+            link:
+              'https://www.dickssportinggoods.com/p/nike-mens-dry-challenger-7-2-in-1-running-shorts-18nikmmnkdryshrtcapb/18nikmmnkdryshrtcapb',
+            desc: "Dry Challenger 7' 2-in-1 Running Shorts",
+            color: 'Gunsmoke and heather',
+          },
+          {
+            link:
+              'https://www.dickssportinggoods.com/p/nike-mens-dry-woven-camo-training-jacket-18nikmmnkdryjkttmnft/18nikmmnkdryjkttmnft',
+            desc: 'Dry Woven Camo Training Jacket',
+          },
+          {
+            link:
+              'https://www.dickssportinggoods.com/p/adidas-originals-mens-rib-beanie-18adimrgnlsrbbnflacw/18adimrgnlsrbbnflacw',
+            desc: "Men's Rib Beanie",
+          },
+          {
+            link:
+              'https://www.dickssportinggoods.com/p/nike-mens-pro-3-4-length-camo-compression-tights-18nikmmnptght3qt2apb/18nikmmnptght3qt2apb',
+            desc: '3/4 Length Camo Compression Tights',
+          },
+          {
+            link:
+              'https://www.dickssportinggoods.com/p/adidas-mens-cotton-fleece-3-stripes-badge-of-sport-hoodie-18adimssntlsjcqrdatt/18adimssntlsjcqrdatt',
+            desc: 'Fleece 3-Stripes Badge Of Sport Hoodie',
+            color: 'Noble Maroon',
+          },
         ],
       },
       {
@@ -134,6 +161,12 @@ export default class IndexPage extends React.Component {
             desc: 'Ascot Slipper',
             color: 'China Tea',
           },
+          {
+            link:
+              'https://www.amazon.com/Sperry-Mens-Avenue-Duck-Brown/dp/B00QR0LL9G/ref=sr_1_1?s=apparel&ie=UTF8&qid=1542988829&sr=1-1&nodeID=7147441011&psd=1&keywords=duck+boots&refinements=p_89%3ASPERRY',
+            desc: 'Avenue Duck Boot Chukka Boot',
+            color: 'Tan and brown',
+          },
         ],
       },
       {
@@ -164,6 +197,45 @@ export default class IndexPage extends React.Component {
           },
         ],
       },
+      {
+        cat: 'Miscellaneous',
+        items: [
+          {
+            link: 'https://www.keepitlocalok.com/buy-keep-it-local-card',
+            desc: 'Oklahoma Keep it Local card',
+          },
+        ],
+      },
+      {
+        cat: 'Leathercraft Tools',
+        items: [
+          {
+            link:
+              'https://www.amazon.com/Aiskaer-Stainless-Diamond-Stitching-Polished/dp/B0757MH9T7/ref=sr_1_2?ie=UTF8&qid=1542989522&sr=8-2&keywords=aiskaer+latest+model+stainless+steel+4mm',
+            desc: 'Diamond Lacing Stitching Chisel Set',
+          },
+          {
+            link:
+              'https://www.amazon.com/Dsmile-1-X-Scratch-Awl/dp/B00I4BJLFW/ref=sr_1_1?ie=UTF8&qid=1542989605&sr=8-1&keywords=dsmile+1+x+scratch+awl',
+            desc: 'Scratch Awl',
+          },
+          {
+            link:
+              'https://www.amazon.com/YazyCraft-Multi-Size-Slicker-Leathercraft-Burnishing/dp/B00IZAV998/ref=sr_1_1_sspa?ie=UTF8&qid=1542989700&sr=8-1-spons&keywords=yazycraft+multi-size&psc=1',
+            desc: 'Wood Slicker',
+          },
+          {
+            link:
+              'https://www.amazon.com/TEKTON-30603-Fiberglass-Handle-16-Ounce/dp/B00KX4KB5M/ref=sr_1_1?ie=UTF8&qid=1542989776&sr=8-1&keywords=tekton+30603+fiberglass+handle+rubber+mallet%2C+16-ounce',
+            desc: 'Rubber Mallet',
+          },
+          {
+            link:
+              'https://www.amazon.com/Safety-Skiver-3001-00-Replacement-3002-00/dp/B00IVS667Y/ref=sr_1_1?ie=UTF8&qid=1542989830&sr=8-1&keywords=tandy+safety+skiver',
+            desc: 'Safety Skiver',
+          },
+        ],
+      },
     ]
     return (
       <LayoutBase>
@@ -183,9 +255,9 @@ export default class IndexPage extends React.Component {
               All of these items can be found at local retailers too! General
               things that I like are legos, board/card games, enamel pins to put
               on my backpack. There is always something that I am needing to fix
-              around the house so a giftcard from lowes would be nice. Keep
-              checking back here, as I think of things I will add them to the
-              list.
+              around the house so a giftcard from lowes would be nice. Cold hard
+              cash for a tattoo is always appreciated. Keep checking back here,
+              as I think of things I will add them to the list.
             </p>
             {items.map((x, id) => {
               return (
