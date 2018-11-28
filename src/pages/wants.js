@@ -192,7 +192,7 @@ export default class IndexPage extends React.Component {
                   },
                   {
                     link:
-                      'https://www.amazon.com/Arlo-Audio-Doorbell-Wire-free-Weather-resistant/dp/B07HXNPJLJ',
+                      'https://www.amazon.com/Tile-Mate-Slim-Combo-Pack/dp/B01MF9VQOP',
                     desc: 'Tile Mate and Slim Combo Pack',
                     info: "I've lost my roomba to many times",
                   },
