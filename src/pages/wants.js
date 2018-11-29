@@ -53,7 +53,7 @@ export default class IndexPage extends React.Component {
                     desc: 'Post Game Fleece Bomber Jacket',
                     color: 'grey and black',
                   },
-{
+                  {
                     link:
                       'https://www.champion.com/shop/champion/to-follow-gf68-y07472-1?categoryId=21218&mid=3156&source=LINK_AD:Z:CHAMP&SiteId=QFGLnEolOWg-EPtr8qd.M3iQv_4N2f2oXQ&cm_mmc=Linkshare-_-NA-_-NA-_-NA&d1=LINKSC&redirectLoop=true&originalReferrer=',
                    desc:'Reverse Weave Pullover',
@@ -121,6 +121,56 @@ export default class IndexPage extends React.Component {
                     link:
                       'https://www.bestbuy.com/site/diablo-iii-eternal-collection-nintendo-switch/6293800.p?skuId=6293800',
                     desc: 'Diablo III: Eternal Collection - Switch',
+                  },
+                  {
+                    link:
+                      'https://www.amazon.com/Agricola-All-Creatures-Big-Small/dp/B00855FMXM/ref=sr_1_2?ie=UTF8&qid=1543511762&sr=8-2&keywords=agricola+all+creatures+big+and+small',
+                    desc: 'Agricola: All Creatures Big and Small',
+                  },
+                  {
+                    link:
+                      'https://www.amazon.com/Game-Fire-Card/dp/B01LY5G1C1/ref=sr_1_4?s=toys-and-games&ie=UTF8&qid=1543511791&sr=1-4&keywords=the+game',
+                    desc: 'The Game',
+                  },
+                  {
+                    link:
+                      'https://www.amazon.com/Games-Hanabi-Card-Game/dp/B00CYQ9Q76/ref=sr_1_1?ie=UTF8&qid=1543511896&sr=8-1&keywords=hanabi',
+                    desc: 'Hanabi',
+                  },
+                  {
+                    link:
+                      'https://www.amazon.com/Z-Man-Games-ZM7810-Carcassonne/dp/B00NX627HW/ref=sr_1_3?s=toys-and-games&ie=UTF8&qid=1543511919&sr=1-3&keywords=carcassonne+board+game',
+                    desc: 'Carcassonne',
+                  },
+                  {
+                    link:
+                      'https://www.amazon.com/CV-Game-Building-Characters-Board/dp/B00UOXUDWI/ref=sr_1_1?ie=UTF8&qid=1543512131&sr=8-1&keywords=cv+game',
+                    desc: 'CV',
+                  },
+                  {
+                    link:
+                      'https://www.amazon.com/Mayfair-Games-MFG3505-Patchwork-Board/dp/B00RCCAPPE/ref=sr_1_1?ie=UTF8&qid=1543512251&sr=8-1&keywords=patchwork+game',
+                    desc: 'Patchwork',
+                  },
+                  {
+                    link:
+                      'https://www.amazon.com/Z-Man-Games-ZM7101-Pandemic/dp/B00A2HD40E/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1543512610&sr=1-1&keywords=pandemic',
+                    desc: 'Pandemic',
+                  },
+                  {
+                    link:
+                      'https://www.amazon.com/Fantasy-Flight-Games-Consulting-Detective/dp/2370990074',
+                    desc: ' Sherlock Holmes: Consulting Detective',
+                  },
+                  {
+                    link:
+                      'https://www.amazon.com/Czech-Games-00036CGE-Codenames-Pictures/dp/B01HT9DERU/ref=sr_1_2?ie=UTF8&qid=1543514048&sr=8-2&keywords=codenames+pictures',
+                    desc: 'Codenames Pictures',
+                  },
+                  {
+                    link:
+                      'https://www.amazon.com/Exploding-Kittens-LLC-EKG-ORG1-1-Card/dp/B010TQY7A8/ref=sr_1_4?s=toys-and-games&ie=UTF8&qid=1543517383&sr=1-4&keywords=exploding+kittens',
+                    desc: 'Exploding Kittens',
                   },
                 ],
               },
