@@ -53,6 +53,12 @@ export default class IndexPage extends React.Component {
                     desc: 'Post Game Fleece Bomber Jacket',
                     color: 'grey and black',
                   },
+{
+                    link:
+                      'https://www.champion.com/shop/champion/to-follow-gf68-y07472-1?categoryId=21218&mid=3156&source=LINK_AD:Z:CHAMP&SiteId=QFGLnEolOWg-EPtr8qd.M3iQv_4N2f2oXQ&cm_mmc=Linkshare-_-NA-_-NA-_-NA&d1=LINKSC&redirectLoop=true&originalReferrer=',
+                   desc:'Reverse Weave Pullover',
+                    color: 'grey',
+                  },
                   {
                     link:
                       'https://m.dickssportinggoods.com/p/adidas-mens-essentials-jacquard-crew-long-sleeve-shirt-18adimssntlsjqrdcatt/18adimssntlsjqrdcatt?recid=rechub_PageElement_rechub3_rr_1_2421_&rrec=true',
