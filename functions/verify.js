@@ -1,5 +1,5 @@
 exports.handler = (event, context, callback) => {
-  if (event.queryStringParameters.name !== process.env.PAGE_PASS) {
+  if (event.queryStringParameters.password !== process.env.PAGE_PASS) {
     callback(null, {
       statusCode: 403,
     })
