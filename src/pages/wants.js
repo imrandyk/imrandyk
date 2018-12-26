@@ -49,21 +49,9 @@ export default class IndexPage extends React.Component {
                 items: [
                   {
                     link:
-                      'https://www.dickssportinggoods.com/p/adidas-mens-post-game-fleece-bomber-jacket-18adimpstgmflcbmbaft/18adimpstgmflcbmbaft?',
-                    desc: 'Post Game Fleece Bomber Jacket',
-                    color: 'grey and black',
-                  },
-                  {
-                    link:
                       'https://www.champion.com/shop/champion/to-follow-gf68-y07472-1?categoryId=21218&mid=3156&source=LINK_AD:Z:CHAMP&SiteId=QFGLnEolOWg-EPtr8qd.M3iQv_4N2f2oXQ&cm_mmc=Linkshare-_-NA-_-NA-_-NA&d1=LINKSC&redirectLoop=true&originalReferrer=',
                    desc:'Reverse Weave Pullover',
                     color: 'grey',
-                  },
-                  {
-                    link:
-                      'https://m.dickssportinggoods.com/p/adidas-mens-essentials-jacquard-crew-long-sleeve-shirt-18adimssntlsjqrdcatt/18adimssntlsjqrdcatt?recid=rechub_PageElement_rechub3_rr_1_2421_&rrec=true',
-                    desc: 'Mens Essentials Jacquard Crew Long Sleeve Shirt',
-                    color: 'grey or black',
                   },
                   {
                     link:
@@ -75,21 +63,6 @@ export default class IndexPage extends React.Component {
                       'https://www.dickssportinggoods.com/p/nike-mens-dry-challenger-7-2-in-1-running-shorts-18nikmmnkdryshrtcapb/18nikmmnkdryshrtcapb',
                     desc: "Dry Challenger 7' 2-in-1 Running Shorts",
                     color: 'Gunsmoke and heather',
-                  },
-                  {
-                    link:
-                      'https://www.dickssportinggoods.com/p/nike-mens-dry-woven-camo-training-jacket-18nikmmnkdryjkttmnft/18nikmmnkdryjkttmnft',
-                    desc: 'Dry Woven Camo Training Jacket',
-                  },
-                  {
-                    link:
-                      'https://www.dickssportinggoods.com/p/adidas-originals-mens-rib-beanie-18adimrgnlsrbbnflacw/18adimrgnlsrbbnflacw',
-                    desc: "Men's Rib Beanie",
-                  },
-                  {
-                    link:
-                      'https://www.dickssportinggoods.com/p/nike-mens-pro-3-4-length-camo-compression-tights-18nikmmnptght3qt2apb/18nikmmnptght3qt2apb',
-                    desc: '3/4 Length Camo Compression Tights',
                   },
                   {
                     link:
@@ -139,11 +112,6 @@ export default class IndexPage extends React.Component {
                   },
                   {
                     link:
-                      'https://www.amazon.com/Z-Man-Games-ZM7810-Carcassonne/dp/B00NX627HW/ref=sr_1_3?s=toys-and-games&ie=UTF8&qid=1543511919&sr=1-3&keywords=carcassonne+board+game',
-                    desc: 'Carcassonne',
-                  },
-                  {
-                    link:
                       'https://www.amazon.com/CV-Game-Building-Characters-Board/dp/B00UOXUDWI/ref=sr_1_1?ie=UTF8&qid=1543512131&sr=8-1&keywords=cv+game',
                     desc: 'CV',
                   },
@@ -156,11 +124,6 @@ export default class IndexPage extends React.Component {
                     link:
                       'https://www.amazon.com/Z-Man-Games-ZM7101-Pandemic/dp/B00A2HD40E/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1543512610&sr=1-1&keywords=pandemic',
                     desc: 'Pandemic',
-                  },
-                  {
-                    link:
-                      'https://www.amazon.com/Fantasy-Flight-Games-Consulting-Detective/dp/2370990074',
-                    desc: ' Sherlock Holmes: Consulting Detective',
                   },
                   {
                     link:
@@ -181,11 +144,6 @@ export default class IndexPage extends React.Component {
                     link:
                       'https://www.bestbuy.com/site/kingsman-the-secret-service-kingsman-the-golden-circle-4k-ultra-hd-blu-ray-blu-ray/6099907.p?skuId=6099907',
                     desc: 'Kingsmen 4k Combo',
-                  },
-                  {
-                    link:
-                      'https://www.bestbuy.com/site/thor-ragnarok-includes-digital-copy-4k-ultra-hd-blu-ray-blu-ray-2017/6139459.p?skuId=6139459',
-                    desc: 'Thor Ragnarok 4k',
                   },
                 ],
               },
@@ -221,12 +179,6 @@ export default class IndexPage extends React.Component {
                       'https://www.ugg.com/men-slippers/ascot-slipper/5379.html?dwvar_5379_color=CTEA#start=8&cgid=men-slippers',
                     desc: 'Ascot Slipper',
                     color: 'China Tea',
-                  },
-                  {
-                    link:
-                      'https://www.amazon.com/Sperry-Mens-Avenue-Duck-Brown/dp/B00QR0LL9G/ref=sr_1_1?s=apparel&ie=UTF8&qid=1542988829&sr=1-1&nodeID=7147441011&psd=1&keywords=duck+boots&refinements=p_89%3ASPERRY',
-                    desc: 'Avenue Duck Boot Chukka Boot',
-                    color: 'Tan and brown',
                   },
                 ],
               },
@@ -265,81 +217,6 @@ export default class IndexPage extends React.Component {
                     link:
                       'https://www.keepitlocalok.com/buy-keep-it-local-card',
                     desc: 'Oklahoma Keep it Local card',
-                  },
-                ],
-              },
-              {
-                cat: 'Leathercraft Tools',
-                items: [
-                  {
-                    link:
-                      'https://www.amazon.com/Aiskaer-Stainless-Diamond-Stitching-Polished/dp/B0757MH9T7/ref=sr_1_2?ie=UTF8&qid=1542989522&sr=8-2&keywords=aiskaer+latest+model+stainless+steel+4mm',
-                    desc: 'Diamond Lacing Stitching Chisel Set',
-                  },
-                  {
-                    link:
-                      'https://www.amazon.com/Dsmile-1-X-Scratch-Awl/dp/B00I4BJLFW/ref=sr_1_1?ie=UTF8&qid=1542989605&sr=8-1&keywords=dsmile+1+x+scratch+awl',
-                    desc: 'Scratch Awl',
-                  },
-                  {
-                    link:
-                      'https://www.amazon.com/YazyCraft-Multi-Size-Slicker-Leathercraft-Burnishing/dp/B00IZAV998/ref=sr_1_1_sspa?ie=UTF8&qid=1542989700&sr=8-1-spons&keywords=yazycraft+multi-size&psc=1',
-                    desc: 'Wood Slicker',
-                  },
-                  {
-                    link:
-                      'https://www.amazon.com/TEKTON-30603-Fiberglass-Handle-16-Ounce/dp/B00KX4KB5M/ref=sr_1_1?ie=UTF8&qid=1542989776&sr=8-1&keywords=tekton+30603+fiberglass+handle+rubber+mallet%2C+16-ounce',
-                    desc: 'Rubber Mallet',
-                  },
-                  {
-                    link:
-                      'https://www.amazon.com/Safety-Skiver-3001-00-Replacement-3002-00/dp/B00IVS667Y/ref=sr_1_1?ie=UTF8&qid=1542989830&sr=8-1&keywords=tandy+safety+skiver',
-                    desc: 'Safety Skiver',
-                  },
-                ],
-              },
-            ]}
-          />
-          <WantList
-            header="Things Hannah Wants!!!"
-            funny="But does she need them?"
-            colorPre="She wants this in"
-            items={[
-              {
-                cat: 'Clothes',
-                info: '',
-                items: [
-                  {
-                    link:
-                      'https://www.thenorthface.com/shop/womens-terra-metro-funnel-neck-pullover-nf0a3lkk?variationId=3YE#hero=0',
-                    desc: 'Terra Metro Funnel Necl Pullover',
-                    color: 'fig',
-                    info: 'She saw this at dillards',
-                  },
-                  {
-                    link:
-                      'https://www.dillards.com/p/the-north-face-train-n-logo-crop-pullover/508414149?googleShop=Y&cm_mmc=GooglePLAs-_-Vendor+-+The+North+Face+-+Shopping-_-g-_-null&gclid=CjwKCAiAiuTfBRAaEiwA4itUqLYSJBhQiNEYNs22lxm82679iiqiKzPsvnWBGZ_EiU_0lFOFy6aUshoCVmYQAvD_BwE',
-                    desc: 'Train N Logo Crop Pullover',
-                    color: 'fig',
-                  },
-                  {
-                    link:
-                      'https://www.dillards.com/p/the-north-face-urban-exploration-alphabet-city-quilted-parka/508471817?singleProductResult=urban+exploration+alphabet+city+quilted+parka',
-                    desc: 'Urban Exploration Alphabet City Quilted Parka',
-                    color: 'Misty Rose',
-                  },
-                  {
-                    link: 'https://www.vonmaur.com/Product.aspx?ID=1462673',
-                    desc: 'Cozy Slacker Jacket',
-                    color: 'blue',
-                    info:
-                      "We found this at dillars in 3 colors but I can't find it on any website but Von Maur",
-                  },
-                  {
-                    link:
-                      'https://www.thenorthface.com/shop/womens-thermoball-jacket-nf0a3ku3?variationId=XYM#hero=0',
-                    desc: 'Thermoball Jacket',
-                    color: 'matte black',
                   },
                 ],
               },
