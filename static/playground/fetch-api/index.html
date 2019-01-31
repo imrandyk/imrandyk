@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fetch Api Demo Page</title>
+    <meta charset="UTF-8" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="prism.css" />
+  </head>
+  <body class="container mx-auto lg:px-20 pt-5 lg:pt-10 bg-grey-lighter">
+    <h1 class="mb-5">Lets learn how to fetch!!</h1>
+    <div class="w-full lg:flex mb-5">
+      <div
+        class="lg:w-1/3 border border-b-0 lg:border-b lg:border-r-0 border-grey-light bg-white lg:rounded-tr-none lg:rounded-br-none lg:rounded-b rounded-t p-5 leading-normal"
+      >
+        <div class="font-bold text-xl mb-2">Vanilla</div>
+        <p id="vanilla" class="text-grey-darker text-base"></p>
+        <div class="px-6 py-4 clearfix">
+          <button
+            id="vanillaButton"
+            class="bg-orange hover:bg-orange-dark text-black shadow font-bold py-2 px-4 rounded float-right"
+          >
+            Get Another
+          </button>
+        </div>
+      </div>
+      <div
+        class="lg:w-2/3 border border-t-0 lg:border-t lg:border-l-0 border-grey-light bg-white rounded rounded-t-none lg:rounded-t lg:rounded-tl-none lg:rounded-bl-none leading-normal"
+      >
+        <pre
+          class="h-full rounded-b lg:rounded-t lg:rounded-tl-none lg:rounded-bl-none"
+          style="margin:0;"
+        >
+          <code class="language-javascript">
+function() {
+  var r = new XMLHttpRequest()
+  r.open('GET', apiUrl, true)
+  r.onreadystatechange = function() {
+    if (r.readyState != 4 || r.status != 200) return
+    var jsonResponse = JSON.parse(r.responseText)
+    // do something with jsonResponse
+    document.querySelector('#vanilla').innerHTML = jsonResponse.value
+  }
+  r.send()
+}
+          </code>
+        </pre>
+      </div>
+    </div>
+
+    <div class="w-full lg:flex mb-5">
+      <div
+        class="lg:w-1/3 border border-b-0 lg:border-b lg:border-r-0 border-grey-light bg-white lg:rounded-tr-none lg:rounded-br-none lg:rounded-b rounded-t p-5 leading-normal"
+      >
+        <div class="font-bold text-xl mb-2">JQuery</div>
+        <p id="jquery" class="text-grey-darker text-base"></p>
+        <div class="px-6 py-4 clearfix">
+          <button
+            id="jqueryButton"
+            class="bg-orange hover:bg-orange-dark text-black shadow font-bold py-2 px-4 rounded float-right"
+          >
+            Get Another
+          </button>
+        </div>
+      </div>
+      <div
+        class="lg:w-2/3 border border-t-0 lg:border-t lg:border-l-0 border-grey-light bg-white rounded rounded-t-none lg:rounded-t lg:rounded-tl-none lg:rounded-bl-none leading-normal"
+      >
+        <pre
+          class="h-full rounded-b lg:rounded-t lg:rounded-tl-none lg:rounded-bl-none"
+          style="margin:0;"
+        >
+          <code class="language-javascript">
+function() {
+  $.ajax({
+    url: apiUrl,
+    context: document.body,
+  }).done(function(data) {
+    document.querySelector('#jquery').innerHTML = data.value
+  })
+}
+          </code>
+        </pre>
+      </div>
+    </div>
+
+    <div class="w-full lg:flex mb-5">
+      <div
+        class="lg:w-1/3 border border-b-0 lg:border-b lg:border-r-0 border-grey-light bg-white lg:rounded-tr-none lg:rounded-br-none lg:rounded-b rounded-t p-5 leading-normal"
+      >
+        <div class="font-bold text-xl mb-2">Axios</div>
+        <p id="axios" class="text-grey-darker text-base"></p>
+        <div class="px-6 py-4 clearfix">
+          <button
+            id="axiosButton"
+            class="bg-orange hover:bg-orange-dark text-black shadow font-bold py-2 px-4 rounded float-right"
+          >
+            Get Another
+          </button>
+        </div>
+      </div>
+      <div
+        class="lg:w-2/3 border border-t-0 lg:border-t lg:border-l-0 border-grey-light bg-white rounded rounded-t-none lg:rounded-t lg:rounded-tl-none lg:rounded-bl-none leading-normal"
+      >
+        <pre
+          class="h-full rounded-b lg:rounded-t lg:rounded-tl-none lg:rounded-bl-none"
+          style="margin:0;"
+        >
+          <code class="language-javascript">
+function() {
+  axios.get(apiUrl).then(function(response) {
+    document.querySelector('#axios').innerHTML = response.data.value
+  })
+}
+          </code>
+        </pre>
+      </div>
+    </div>
+
+    <h2 class="mb-5">The holy grail</h2>
+    <div class="w-full lg:flex mb-5">
+      <div
+        class="lg:w-1/3 border border-b-0 lg:border-b lg:border-r-0 border-grey-light bg-white lg:rounded-tr-none lg:rounded-br-none lg:rounded-b rounded-t p-5 leading-normal"
+      >
+        <div class="font-bold text-xl mb-2">Fetch</div>
+        <p id="fetch" class="text-grey-darker text-base"></p>
+        <div class="px-6 py-4 clearfix">
+          <button
+            id="fetchButton"
+            class="bg-orange hover:bg-orange-dark text-black shadow font-bold py-2 px-4 rounded float-right"
+          >
+            Get Another
+          </button>
+        </div>
+      </div>
+      <div
+        class="lg:w-2/3 border border-t-0 lg:border-t lg:border-l-0 border-grey-light bg-white rounded rounded-t-none lg:rounded-t lg:rounded-tl-none lg:rounded-bl-none leading-normal"
+      >
+        <pre
+          class="h-full rounded-b lg:rounded-t lg:rounded-tl-none lg:rounded-bl-none"
+          style="margin:0;"
+        >
+          <code class="language-javascript">
+function() {
+  fetch(apiUrl)
+    .then(function(response) {
+      return response.json()
+    })
+    .then(function(myJson) {
+      document.querySelector('#fetch').innerHTML = myJson.value
+    })
+}
+          </code>
+        </pre>
+      </div>
+    </div>
+
+    <script defer="true">
+      const apiUrl = 'https://api.chucknorris.io/jokes/random'
+
+      //initial load
+      window.onload = function() {
+        vanillaCall()
+        jqueryCall()
+        axiosCall()
+        fetchCall()
+      }
+
+      //click events
+      document
+        .querySelector('#vanillaButton')
+        .addEventListener('click', function() {
+          vanillaCall()
+        })
+      document
+        .querySelector('#jqueryButton')
+        .addEventListener('click', function() {
+          jqueryCall()
+        })
+      document
+        .querySelector('#axiosButton')
+        .addEventListener('click', function() {
+          axiosCall()
+        })
+      document
+        .querySelector('#fetchButton')
+        .addEventListener('click', function() {
+          fetchCall()
+        })
+
+      //call functions
+      const vanillaCall = function() {
+        var r = new XMLHttpRequest()
+        r.open('GET', apiUrl, true)
+        r.onreadystatechange = function() {
+          if (r.readyState != 4 || r.status != 200) return
+          var jsonResponse = JSON.parse(r.responseText)
+          // do something with jsonResponse
+          document.querySelector('#vanilla').innerHTML = jsonResponse.value
+        }
+        r.send()
+      }
+      const jqueryCall = function() {
+        $.ajax({
+          url: apiUrl,
+          context: document.body,
+        }).done(function(data) {
+          document.querySelector('#jquery').innerHTML = data.value
+        })
+      }
+      const axiosCall = function() {
+        axios.get(apiUrl).then(function(response) {
+          document.querySelector('#axios').innerHTML = response.data.value
+        })
+      }
+      const fetchCall = function() {
+        fetch(apiUrl)
+          .then(function(response) {
+            return response.json()
+          })
+          .then(function(myJson) {
+            document.querySelector('#fetch').innerHTML = myJson.value
+          })
+      }
+    </script>
+    <script src="prism.js"></script>
+  </body>
+</html>
